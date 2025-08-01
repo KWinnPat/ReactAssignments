@@ -9,8 +9,7 @@ function Weather() {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4d1477d529c0ed2c7ebef7638034a76a
-&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=TOKEN&units=metric`
       );
       const data = await response.json();
       setWeather(data);
