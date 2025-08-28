@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  contain: content;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+:root {
+  margin: 0px;
+  padding: 0px;
+}
